@@ -1,0 +1,4 @@
+#!/bin/bash -v
+name=$1
+mkdir -p $name
+cp ../main.cc $name/$name.cc
